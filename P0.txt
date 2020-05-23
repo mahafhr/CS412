@@ -29,7 +29,7 @@ git rebase master
 
 git checkout C4
 
-2.2 Relative Refs (^)
+2.2
 
 git checkout C4^
 
