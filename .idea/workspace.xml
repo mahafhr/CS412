@@ -28,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="package.json" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -46,6 +46,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -53,25 +54,50 @@
       <recent name="C:\Users\mahaf\Desktop\CS412\PS1" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.test.js">
+  <component name="RunManager" selected="Mocha.test.js">
     <configuration name="PS1.P1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/PS1/PS1.P1.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="PS1.P2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/PS1/PS1.P2.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="PS1.P3.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/PS1/PS1.P3.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/PS1/test.js" working-dir="$PROJECT_DIR$/PS1">
+    <configuration name="PS2.P2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/PS2/PS2.P2.js" working-dir="$PROJECT_DIR$/PS2">
       <method v="2" />
     </configuration>
+    <configuration name="PS2.P3.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/PS2/PS2.P3.js" working-dir="$PROJECT_DIR$/PS2">
+      <method v="2" />
+    </configuration>
+    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="test.js" working-dir="$PROJECT_DIR$/PS1">
+      <method v="2" />
+    </configuration>
+    <configuration name="test.js" type="mocha-javascript-test-runner">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/PS1</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory>$PROJECT_DIR$/PS1</test-directory>
+      <recursive>false</recursive>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Mocha.test.js" />
+      <item itemvalue="Node.js.PS1.P1.js" />
+      <item itemvalue="Node.js.PS1.P3.js" />
+      <item itemvalue="Node.js.PS2.P2.js" />
+      <item itemvalue="Node.js.PS2.P3.js" />
+      <item itemvalue="Node.js.test.js" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.test.js" />
+        <item itemvalue="Node.js.PS2.P2.js" />
+        <item itemvalue="Node.js.PS2.P3.js" />
         <item itemvalue="Node.js.PS1.P1.js" />
         <item itemvalue="Node.js.PS1.P3.js" />
-        <item itemvalue="Node.js.PS1.P2.js" />
       </list>
     </recent_temporary>
   </component>
@@ -85,7 +111,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590768043172</updated>
-      <workItem from="1590768046057" duration="21312000" />
+      <workItem from="1590768046057" duration="22483000" />
+      <workItem from="1591106754174" duration="3761000" />
     </task>
     <servers />
   </component>
@@ -102,24 +129,41 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1259" height="218" key="GridCell.Tab.0.bottom" timestamp="1590942229880">
+    <state x="353" y="18" key="#P1.test.js" timestamp="1591134809406">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1259" height="218" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1590942229880" />
-    <state width="1259" height="218" key="GridCell.Tab.0.center" timestamp="1590942229879">
+    <state x="353" y="18" key="#P1.test.js/0.0.1280.720@0.0.1280.720" timestamp="1591134809406" />
+    <state x="353" y="14" key="#Testing_PS1.P1..." timestamp="1591134832020">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1259" height="218" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1590942229879" />
-    <state width="1259" height="218" key="GridCell.Tab.0.left" timestamp="1590942229879">
+    <state x="353" y="14" key="#Testing_PS1.P1.../0.0.1280.720@0.0.1280.720" timestamp="1591134832020" />
+    <state x="-74" y="24" width="1089" height="526" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591134992387">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1259" height="218" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1590942229879" />
-    <state width="1259" height="218" key="GridCell.Tab.0.right" timestamp="1590942229879">
+    <state x="-74" y="24" width="1089" height="526" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1591134992387" />
+    <state x="353" y="18" key="#test.js" timestamp="1591134945823">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1259" height="218" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1590942229879" />
+    <state x="353" y="18" key="#test.js/0.0.1280.720@0.0.1280.720" timestamp="1591134945823" />
+    <state width="1259" height="213" key="GridCell.Tab.0.bottom" timestamp="1591135019962">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1259" height="213" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1591135019962" />
+    <state width="1259" height="213" key="GridCell.Tab.0.center" timestamp="1591135019962">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1259" height="213" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1591135019962" />
+    <state width="1259" height="213" key="GridCell.Tab.0.left" timestamp="1591135019962">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1259" height="213" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1591135019962" />
+    <state width="1259" height="213" key="GridCell.Tab.0.right" timestamp="1591135019962">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1259" height="213" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1591135019962" />
     <state width="1259" height="220" key="GridCell.Tab.1.bottom" timestamp="1590864871788">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -168,9 +212,21 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="1259" height="220" key="GridCell.Tab.3.right/0.0.1280.720@0.0.1280.720" timestamp="1590864871790" />
-    <state x="297" y="161" key="run.anything.popup" timestamp="1590929463153">
+    <state x="297" y="161" key="run.anything.popup" timestamp="1591107127165">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="297" y="161" key="run.anything.popup/0.0.1280.720@0.0.1280.720" timestamp="1590929463153" />
+    <state x="297" y="161" key="run.anything.popup/0.0.1280.720@0.0.1280.720" timestamp="1591107127165" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/PS1/test.js</url>
+          <line>5</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

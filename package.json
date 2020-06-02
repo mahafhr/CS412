@@ -2,6 +2,7 @@
   "name": "CS412",
   "version": "1.0.0",
   "dependencies": {
+    "chai": "^4.2.0",
     "mocha": "^7.2.0"
   },
   "scripts": {

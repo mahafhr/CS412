@@ -36,4 +36,4 @@ const evaluate = str => {
 const expression = '8+7';
 let operator = evaluate(expression);
 console.log(`P2: ${expression} = ${operator(expression)}`)
-
+module.exports = {evaluate}

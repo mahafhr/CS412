@@ -8,3 +8,4 @@ const sortString = str => str.split('').sort().join('')
 
 
 console.log(`P1: badface in order is: ${sortString("lazydog")}`)
+module.exports = {sortString}
