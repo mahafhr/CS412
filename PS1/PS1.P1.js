@@ -6,5 +6,6 @@ output: a new string that contains letters in alphabetical order. */
 
 const sortString = str => str.split('').sort().join('')
 
-
 console.log(`P1: badface in order is: ${sortString("lazydog")}`)
+
+module.exports = { sortString }

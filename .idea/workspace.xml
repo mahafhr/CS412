@@ -46,6 +46,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -53,7 +54,7 @@
       <recent name="C:\Users\mahaf\Desktop\CS412\PS1" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.test.js">
+  <component name="RunManager" selected="Mocha.test">
     <configuration name="PS1.P1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/PS1/PS1.P1.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -66,6 +67,26 @@
     <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/PS1/test.js" working-dir="$PROJECT_DIR$/PS1">
       <method v="2" />
     </configuration>
+    <configuration name="test" type="mocha-javascript-test-runner">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory>$PROJECT_DIR$/PS1</test-directory>
+      <recursive>false</recursive>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Mocha.test" />
+      <item itemvalue="Node.js.PS1.P2.js" />
+      <item itemvalue="Node.js.PS1.P1.js" />
+      <item itemvalue="Node.js.PS1.P3.js" />
+      <item itemvalue="Node.js.test.js" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.test.js" />
@@ -102,24 +123,33 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1259" height="218" key="GridCell.Tab.0.bottom" timestamp="1590942229880">
+    <state x="96" y="15" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591136167260">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1259" height="218" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1590942229880" />
-    <state width="1259" height="218" key="GridCell.Tab.0.center" timestamp="1590942229879">
+    <state x="96" y="15" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1591136167260" />
+    <state x="93" y="93" width="1095" height="535" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1591135638206">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1259" height="218" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1590942229879" />
-    <state width="1259" height="218" key="GridCell.Tab.0.left" timestamp="1590942229879">
+    <state x="93" y="93" width="1095" height="535" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.720@0.0.1280.720" timestamp="1591135638206" />
+    <state width="1259" height="213" key="GridCell.Tab.0.bottom" timestamp="1591136388614">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1259" height="218" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1590942229879" />
-    <state width="1259" height="218" key="GridCell.Tab.0.right" timestamp="1590942229879">
+    <state width="1259" height="213" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1591136388614" />
+    <state width="1259" height="213" key="GridCell.Tab.0.center" timestamp="1591136388613">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1259" height="218" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1590942229879" />
+    <state width="1259" height="213" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1591136388613" />
+    <state width="1259" height="213" key="GridCell.Tab.0.left" timestamp="1591136388612">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1259" height="213" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1591136388612" />
+    <state width="1259" height="213" key="GridCell.Tab.0.right" timestamp="1591136388613">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1259" height="213" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1591136388613" />
     <state width="1259" height="220" key="GridCell.Tab.1.bottom" timestamp="1590864871788">
       <screen x="0" y="0" width="1280" height="720" />
     </state>

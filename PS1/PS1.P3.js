@@ -25,7 +25,7 @@ const exp2 = fString( "ladygaga", function bigA(str) {
 console.log(`P3: expression 1 test: ${exp1}`);
 console.log(`P3: expression 2 test: `, exp2);
 
-
+module.exports = { fString } //can't export my exprs, can I?
 
 
 
