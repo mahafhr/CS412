@@ -28,11 +28,11 @@ describe('MusicxMatch API', () => {
         chai.request(app)
             .get('/')
             .end((err, response) => {
-                it('body should not contain "Coronavirus"', function () {
+                it('body should be of type object', function () {
                     chai.request(app)
                         .get('/top')
                         .end((err, response) => {
-                            response.body.should.be.a('object');
+                            expect(response.body).should.be.a('object');
                         })
                 })
 
