@@ -33,7 +33,7 @@ router.route('/top')
         })
     })
 
-    // the hw problem 
+    // get from PS4. This assignment does not mention us needing a get, I hope that's ok...
     // .get(async (req, res, next) => {
     //     let result = await fetch(CONFIG.url + 'chart.tracks.get?chart_name=top&page=1&' +
     //         'page_size=1&country=WX&apikey=' + CONFIG.key);
