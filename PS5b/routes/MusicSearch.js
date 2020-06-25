@@ -7,6 +7,7 @@ const CONFIG = require('../configs/mxmAPI');
 const redis = require('redis');
 const client = redis.createClient();
 
+
 router.route('/top')
     .post(async(req, res, next) => {
         let country = req.body.city
@@ -31,9 +32,20 @@ router.route('/top')
             }
 
         })
-
-
     })
+
+    // the hw problem 
+    // .get(async (req, res, next) => {
+    //     let result = await fetch(CONFIG.url + 'chart.tracks.get?chart_name=top&page=1&' +
+    //         'page_size=1&country=WX&apikey=' + CONFIG.key);
+    //     let topSong = await result.json();
+    //     let song1 = topSong.message.body.track_list[0].track
+    //     res.render('topSong', {
+    //         song: song1.track_name,
+    //         country: 'worldwide',
+    //         artist: song1.artist_name
+    //     });
+    // })
 
 module.exports = router;
 
