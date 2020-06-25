@@ -23,7 +23,6 @@ router.route('/top')
         client.exists(country, (err, result)=>{
             if(result == 1) {
                 client.get(country, (err, result) => {
-                    //res.send(`<h2>${city} has temperature of ${response} </h2>`)
                     res.send(JSON.stringify(result + ' and it has been cached! IMPRESSIVE!!'))
                 })
             } else{
