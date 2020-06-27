@@ -7,7 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'PS6';
-
   public show:boolean = false;
   public buttonName:any = 'Show';
 
