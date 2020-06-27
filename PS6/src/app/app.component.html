@@ -1,0 +1,9 @@
+<h2> Welcome to {{title}}!</h2>
+<h1> Top music in the charts WORLDWIDE today: </h1>
+
+<button (click)="toggle()" id="bt">
+  {{buttonName}}
+</button>
+<ng-container *ngIf="show">
+<app-list></app-list>
+</ng-container>

@@ -1,0 +1,10 @@
+<h3> click on song name to get song artist </h3>
+<div name="outerlist">
+  <ul *ngFor="let track of tracks">
+    <li (click)="ShowArtist(track.song)">{{track.song}}</li>
+  </ul>
+</div>
+
+<div name="details" *ngIf="selectedTrack">
+  <input name="artist" type="text" value="{{selectedTrack.artist}}">
+</div>
